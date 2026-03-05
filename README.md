@@ -1,7 +1,7 @@
 # 📌 Política de Segurança da Informação - InnovaTech
 
 <div align="center">
-  
+
 ![Status](https://img.shields.io/badge/Status-Em%20Vigor-brightgreen)
 ![Versão](https://img.shields.io/badge/Versão-1.0-blue)
 ![LGPD](https://img.shields.io/badge/LGPD-Conforme-yellow)
@@ -16,19 +16,19 @@
 - [3. Análise de Riscos](#-3-análise-de-riscos)
 - [4. Diretrizes de Segurança](#-4-diretrizes-de-segurança)
 - [5. Regras Disciplinares](#-5-regras-disciplinares)
-- [6. Termo de Ciência](#-6-termo-de-ciência)
+- [6. Aplicabilidade](#-6-aplicabilidade)
 
 ---
 
 ## 🏢 1. Contexto
 
-**InnovaTech Solutions** - SaaS para setor financeiro
+**InnovaTech Solutions** — SaaS para o setor financeiro.
 
 ### Ativos Críticos
 | Local | Criticidade |
 |:---|:---:|
 | ☁️ AWS (Produção) | 🔴 Alta |
-| 🖥️ Sala Servidores | 🔴 Alta |
+| 🖥️ Sala de Servidores | 🔴 Alta |
 | 💻 Setor Dev | 🟡 Média |
 | 📁 Setor RH | 🔴 Alta |
 
@@ -39,7 +39,7 @@
 | Membro | Cargo |
 |:---|:---|
 | Ana Souza | CISO |
-| Carlos Lima | Gestor TI |
+| Carlos Lima | Gestor(a) de TI |
 | Mariana Costa | DPO |
 | João Pedro | RH |
 
@@ -60,68 +60,57 @@ quadrantChart
     "Phishing": [0.90, 0.70]
     "Falha Elétrica": [0.30, 0.85]
     "Vazamento": [0.40, 0.95]
+```
 
-
-## 📊 Análise de Riscos
-
+### Priorização
 | Risco | Prioridade |
 |:---:|:---:|
 | 🦠 Ransomware | 🔴 **MÁXIMA** |
 | 🎣 Phishing | 🟠 **ALTA** |
 | 💣 Vazamento | 🟠 **ALTA** |
-| ⚡ Falha Energia | 🟡 **MÉDIA** |
+| ⚡ Falha de energia | 🟡 **MÉDIA** |
 
 ---
 
 ## 🔒 4. Diretrizes de Segurança
 
 ### 🛡️ Confidencialidade
-
 | Regra | Exigência |
 |:---|:---|
 | ✅ **MFA** | Obrigatório em sistemas críticos |
 | ✅ **Criptografia** | Notebooks (BitLocker) + VPN |
-| ✅ **Acesso Mínimo** | Revisão mensal de acessos |
-
----
+| ✅ **Acesso mínimo** | Revisão mensal de acessos |
 
 ### 📝 Integridade
-
 | Regra | Especificação |
 |:---|:---|
 | ✅ **Backup** | 3-2-1 (3 cópias, 2 mídias, 1 off-site) |
 | ✅ **Teste** | Restauração mensal |
 | ✅ **Hashing** | Senhas com bcrypt |
 
----
-
 ### ⏱️ Disponibilidade
-
 | Métrica | Meta |
 |:---|:---:|
 | 📈 **Uptime** | 99.9% |
 | ⏰ **RTO** | 4h |
 | 📊 **RPO** | 1h |
 
-**Plano de Contingência:**
+**Plano de contingência:**
 - ☁️ Failover AWS (us-east-1 → us-west-2)
-- ⚡ Gerador com autonomia 48h
-- 🌐 ISP Backup
-
----
+- ⚡ Gerador com autonomia de 48h
+- 🌐 ISP backup
 
 ### 👤 Fator Humano
-
 | Regra de Ouro | Consequência |
 |:---|:---|
 | 🚫 **Compartilhar senhas** | 🔴 Grave |
-| 🔒 **Bloquear tela** | 🟢 Leve/Média |
+| 🔒 **Bloquear a tela** | 🟢 Leve/Média |
 | 📱 **Sem USB pessoal** | 🟡 Média |
 | 🎣 **Reportar phishing** | 📢 Obrigatório |
 
 **Treinamentos:**
 - 📚 Onboarding obrigatório
-- 🎯 Phishing simulado trimestral
+- 🎯 Simulação de phishing trimestral
 
 ---
 
@@ -129,31 +118,23 @@ quadrantChart
 
 | Nível | Infração | Consequência |
 |:---:|:---|:---|
-| 🟢 **Leve** | Tela desbloqueada | Advertência Verbal |
-| 🟡 **Média** | USB não autorizado | Advertência Escrita |
+| 🟢 **Leve** | Tela desbloqueada | Advertência verbal |
+| 🟡 **Média** | USB não autorizado | Advertência escrita |
 | 🟠 **Grave** | Compartilhar senha | Suspensão |
-| 🔴 **Gravíssima** | Vazamento intencional | **Justa Causa** |
+| 🔴 **Gravíssima** | Vazamento intencional | **Justa causa** |
 
 ---
 
 ## ✅ 6. Aplicabilidade
 
-✔️ **Quem?** Todos funcionários, estagiários e terceiros  
-✔️ **Onde?** Escritórios, home office e nuvem  
-✔️ **O quê?** Todos sistemas e dados corporativos
+- ✔️ **Quem?** Todos(as) os(as) funcionários(as), estagiários(as) e terceiros(as)
+- ✔️ **Onde?** Escritórios, home office e nuvem
+- ✔️ **O quê?** Todos os sistemas e dados corporativos
 
-## 📊 Matriz de Priorização de Riscos
-
-<div align="center">
-
-| 🟢 Baixo | 🟡 Médio | 🟠 Alto | 🔴 Crítico |
-|:---:|:---:|:---:|:---:|
-
+### 📊 Matriz de Priorização de Riscos
 | Risco | Impacto | Probabilidade | Prioridade |
-|:---|:---:|:---:|:---:|
+|:---|:---|:---|:---|
 | 🦠 Ransomware | 🔴 Crítico | 📈 Alta | 🔴 **MÁXIMA** |
 | 🎣 Phishing | 🟠 Alto | 📈 Alta | 🟠 **ALTA** |
 | 💣 Vazamento | 🔴 Crítico | 📊 Média | 🟠 **ALTA** |
-| ⚡ Falha Energia | 🟠 Alto | 📉 Baixa | 🟡 **MÉDIA** |
-
-</div>
+| ⚡ Falha de energia | 🟠 Alto | 📉 Baixa | 🟡 **MÉDIA** |
