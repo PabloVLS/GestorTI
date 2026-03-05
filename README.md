@@ -97,8 +97,8 @@ quadrantChart
 | Métrica | Meta |
 |:---|:---:|
 | 📈 **Uptime** | 99.9% |
-| ⏰ **RTO** | 4h |
-| 📊 **RPO** | 1h |
+| ⏰ **RTO**(Fora do Ar) | 4h |
+| 📊 **RPO**(Quantidade de Dados) | 1h |
 
 **Plano de contingência:**
 - ☁️ Failover AWS (us-east-1 → us-west-2)
