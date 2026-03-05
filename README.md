@@ -143,3 +143,7 @@ quadrantChart
 | 🎣 Phishing | 🟠 Alto | 📈 Alta | 🟠 **ALTA** |
 | 💣 Vazamento | 🔴 Crítico | 📊 Média | 🟠 **ALTA** |
 | ⚡ Falha de energia | 🟠 Alto | 📉 Baixa | 🟡 **MÉDIA** |
+
+
+
+Video Explicação: https://youtu.be/SbjadzggwQ8
