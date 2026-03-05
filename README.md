@@ -141,3 +141,19 @@ quadrantChart
 ✔️ **Quem?** Todos funcionários, estagiários e terceiros  
 ✔️ **Onde?** Escritórios, home office e nuvem  
 ✔️ **O quê?** Todos sistemas e dados corporativos
+
+## 📊 Matriz de Priorização de Riscos
+
+<div align="center">
+
+| 🟢 Baixo | 🟡 Médio | 🟠 Alto | 🔴 Crítico |
+|:---:|:---:|:---:|:---:|
+
+| Risco | Impacto | Probabilidade | Prioridade |
+|:---|:---:|:---:|:---:|
+| 🦠 Ransomware | 🔴 Crítico | 📈 Alta | 🔴 **MÁXIMA** |
+| 🎣 Phishing | 🟠 Alto | 📈 Alta | 🟠 **ALTA** |
+| 💣 Vazamento | 🔴 Crítico | 📊 Média | 🟠 **ALTA** |
+| ⚡ Falha Energia | 🟠 Alto | 📉 Baixa | 🟡 **MÉDIA** |
+
+</div>
