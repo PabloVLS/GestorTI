@@ -60,3 +60,84 @@ quadrantChart
     "Phishing": [0.90, 0.70]
     "Falha Elétrica": [0.30, 0.85]
     "Vazamento": [0.40, 0.95]
+
+
+## 📊 Análise de Riscos
+
+| Risco | Prioridade |
+|:---:|:---:|
+| 🦠 Ransomware | 🔴 **MÁXIMA** |
+| 🎣 Phishing | 🟠 **ALTA** |
+| 💣 Vazamento | 🟠 **ALTA** |
+| ⚡ Falha Energia | 🟡 **MÉDIA** |
+
+---
+
+## 🔒 4. Diretrizes de Segurança
+
+### 🛡️ Confidencialidade
+
+| Regra | Exigência |
+|:---|:---|
+| ✅ **MFA** | Obrigatório em sistemas críticos |
+| ✅ **Criptografia** | Notebooks (BitLocker) + VPN |
+| ✅ **Acesso Mínimo** | Revisão mensal de acessos |
+
+---
+
+### 📝 Integridade
+
+| Regra | Especificação |
+|:---|:---|
+| ✅ **Backup** | 3-2-1 (3 cópias, 2 mídias, 1 off-site) |
+| ✅ **Teste** | Restauração mensal |
+| ✅ **Hashing** | Senhas com bcrypt |
+
+---
+
+### ⏱️ Disponibilidade
+
+| Métrica | Meta |
+|:---|:---:|
+| 📈 **Uptime** | 99.9% |
+| ⏰ **RTO** | 4h |
+| 📊 **RPO** | 1h |
+
+**Plano de Contingência:**
+- ☁️ Failover AWS (us-east-1 → us-west-2)
+- ⚡ Gerador com autonomia 48h
+- 🌐 ISP Backup
+
+---
+
+### 👤 Fator Humano
+
+| Regra de Ouro | Consequência |
+|:---|:---|
+| 🚫 **Compartilhar senhas** | 🔴 Grave |
+| 🔒 **Bloquear tela** | 🟢 Leve/Média |
+| 📱 **Sem USB pessoal** | 🟡 Média |
+| 🎣 **Reportar phishing** | 📢 Obrigatório |
+
+**Treinamentos:**
+- 📚 Onboarding obrigatório
+- 🎯 Phishing simulado trimestral
+
+---
+
+## ⚖️ 5. Regras Disciplinares
+
+| Nível | Infração | Consequência |
+|:---:|:---|:---|
+| 🟢 **Leve** | Tela desbloqueada | Advertência Verbal |
+| 🟡 **Média** | USB não autorizado | Advertência Escrita |
+| 🟠 **Grave** | Compartilhar senha | Suspensão |
+| 🔴 **Gravíssima** | Vazamento intencional | **Justa Causa** |
+
+---
+
+## ✅ 6. Aplicabilidade
+
+✔️ **Quem?** Todos funcionários, estagiários e terceiros  
+✔️ **Onde?** Escritórios, home office e nuvem  
+✔️ **O quê?** Todos sistemas e dados corporativos
