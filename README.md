@@ -71,7 +71,12 @@ quadrantChart
 | ⚡ Falha de energia | 🟡 **MÉDIA** |
 
 ---
+### 🔐 Controles de Acesso
+<img width="587" height="671" alt="image" src="https://github.com/user-attachments/assets/d3f7341d-ce27-40d9-97ff-741a75add243" />
 
+
+
+---
 ## 🔒 4. Diretrizes de Segurança
 
 ### 🛡️ Confidencialidade
